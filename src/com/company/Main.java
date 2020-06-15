@@ -31,6 +31,8 @@ public class Main {
 
 	static boolean first = true;// Переменная, которая поможет показать пример ровно 1 раз
 
+	static int moves = 0;
+
 
 	// Главная функция
 	public static void main(String[] args) {
@@ -69,6 +71,12 @@ public class Main {
 			check();
 
 
+			moves++;
+			if (moves == 9){
+				clear_pole();
+				moves = 0;
+			}
+
 			do{
 				pole();
 				System.out.print("игрок2, виберите координату поля: ");
@@ -86,6 +94,7 @@ public class Main {
 				y = player2_value[1];
 				clear();
 			}while (bad_move);
+			moves++;
 			pole[x][y] = 'o';// Знак для игрока 2
 			check();
 			
