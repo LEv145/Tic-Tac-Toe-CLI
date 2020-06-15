@@ -29,7 +29,7 @@ public class Main {
 	static int x = 0;
 	static int y = 0;
 
-	static boolean first = true;// Переменная, которая поможет показать пример ровно 1 раз
+	static boolean first = true;// Переменная, которая поможет показать "пример" ровно 1 раз
 
 	static int moves = 0;
 
