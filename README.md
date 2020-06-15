@@ -11,3 +11,7 @@ javac -sourcepath ./src -d bin C:\JAVA\class\src\com\company\Main.java
 ```
 java -classpath ./bin com.company.Main
 ```
+
+# About
+
+Я пытался сделать, как можно более понятную и функцианальную версию крестиков-ноликов, как для пользователей, так и для программистов.
