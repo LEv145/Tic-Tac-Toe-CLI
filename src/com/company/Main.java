@@ -129,7 +129,7 @@ public class Main {
 
 	}
 
-	// Перевод из входа пользованеля в пересенные player_x, player_y
+	// Перевод из входа пользованеля в переменные player_x, player_y
 	public static int[] processing(String player_input){
 		int player_x = 0;
 		int player_y = 0;
